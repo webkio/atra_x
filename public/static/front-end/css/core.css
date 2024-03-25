@@ -1,0 +1,209 @@
+/* =============> component.general */
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mask-loading{
+    position: relative;
+}
+
+.mask-loading::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255 255 255 / 50%);
+    z-index: 1050;
+}
+
+.bg-img {
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+.maxw-100{
+    max-width: 100px !important;
+}
+
+.maxw-200{
+    max-width: 200px !important;
+}
+
+.minh-100{
+    min-height: 100px !important;
+}
+
+.no-shadow{
+    box-shadow: none !important;
+}
+
+.right-top{
+    top: 0;
+    right: 0;
+}
+
+.no-radius{
+    border-radius: 0 !important;
+}
+
+.list-style-decimal{
+    list-style: decimal;
+}
+
+/* custom collpase show some content when hidden */
+collapse.less.collapsing , .less.collapsing{
+    height: 120px;
+}
+
+.collapse.less:not(.show){
+    display: block;
+    height: 120px;
+    overflow: hidden;
+}
+
+.currency{
+    margin-left: 5px;
+}
+
+.user-list-menu {min-width:100%;max-width:max-content} 
+
+/* =============> component.zebra.date.picker */
+
+.Zebra_DatePicker_Icon_Wrapper{
+    width: 100% !important;
+}
+
+.Zebra_DatePicker{
+    box-shadow: none !important;
+    left: calc((100% - 257px)/2) !important;
+}
+
+button.Zebra_DatePicker_Icon{
+    top: 10px !important;
+}
+
+/* =============> component.scroll-btn */
+#scroll-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1090;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#scroll-top::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: auto;
+    padding: 50% 0;
+    border-radius: 75%;
+    background-color: black;
+    top: 17%;
+    left: 0;
+    z-index: -1;
+}
+ 
+#scroll-top.active{
+    opacity: 1;
+}
+
+/* =============> component.comment */
+.child-comment{
+    margin-left: 15px;
+}
+
+#cancel-comment-form{
+    display: none;
+}
+
+.comment-item #cancel-comment-form{
+    display: block;
+}
+
+/* =============> component.popup */
+.modal-popup-wrapper{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.modal-popup-wrapper #close{
+    position: relative;
+    z-index: 15;
+}
+
+.img-popup-wrapper img{
+    max-width: 300px;
+}
+
+.notification-wrapper{
+    background-image: url(/static/front-end/img/notification/pattern.jpg);
+}
+.notification-wrapper .content-wrapper a{
+    color: cyan;
+    text-shadow: 0 0 5px black;
+}
+
+.notification-wrapper .content-wrapper p{
+    margin-bottom: 0;
+}
+
+/* =============> component.cookie */
+
+.cookie-wrapper{
+    width: 80%;
+    position: fixed;
+    left: 10%;
+    bottom: 0;
+    z-index: 1025;
+}
+
+/* ######## => RESPONSIVE ######## */
+
+@media(max-width: 1440px){
+    .img-popup-wrapper img{
+        max-width: 250px;
+    }
+}
+
+@media(max-width: 1200px){
+    .img-popup-wrapper img{
+        max-width: 200px;
+    }
+}
+
+
+@media(max-width: 1140px){
+    
+}
+
+
+@media(max-width: 992px){
+    .img-popup-wrapper img{
+        max-width: 150px;
+    }
+}
+
+
+@media(max-width: 767px){
+    
+}
+
+
+@media(max-width: 480px){
+    
+}
+
+
+@media(max-width: 320px){
+
+}

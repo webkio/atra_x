@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:  /feed/
+Disallow:  /search/
+
+Sitemap: http://atra.com/sitemap.xml

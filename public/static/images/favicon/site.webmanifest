@@ -1,0 +1,61 @@
+{
+    "name": "atraweb - \u0633\u0627\u0645\u0627\u0646\u0647 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06cc\u0633\u06cc",
+    "short_name": "atraweb",
+    "description": "\u0633\u0627\u0645\u0627\u0646\u0647 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06cc\u0633\u06cc",
+    "dir": "rtl",
+    "lang": "fa_IR",
+    "id": "rpd_core_1",
+    "start_url": "http://atra.com",
+    "scope": "http://atra.com",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/public/static/images/favicon/favicon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/public/static/images/favicon/favicon-48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#01AF37",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

@@ -1,0 +1,11 @@
+@font-face {
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+            font-family: 'peyda';
+            src: url(/public/static/fonts/peydaweb/peydaweb.woff2) format("woff2"),url(/public/static/fonts/peydaweb/peydaweb.woff) format("woff")
+        }
+body , .tox:not(svg):not(rect) , .tox-dialog__title , .tox-button , .tox-selectfield select , .tox-textfield{
+    font-family : 'peyda' !important;
+}
+
